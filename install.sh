@@ -1,5 +1,5 @@
 clear
-echo ("=================Proses Berjalan=================")
+
 pkg update &&pkg upgrade
 pkg install python
 pkg install nano
@@ -9,5 +9,5 @@ gem install lolcat
 pkg install toilet
 pkg install neofetch
 
-echo("")
-echo ("=================Proses Selesai================").
+echo
+
